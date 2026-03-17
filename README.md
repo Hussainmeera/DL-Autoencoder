@@ -37,9 +37,9 @@ Summarize the current understanding of the denoising autoencoder's implementatio
 
 ## PROGRAM
 
-### Name: Arun S
+### Name: MEERA HUSSAIN A
 
-### Register Number:2122230023
+### Register Number:212224230155
 
 ```python
 # Autoencoder Definition
@@ -73,7 +73,7 @@ optimizer= optim.Adam(model.parameters(),lr=1e-3)
 
 # Training function
 def train(model, loader, criterion, optimizer, epochs=5):
-  print("Name: Arun S               ")
+  print("Name: MEERA HUSSAIN A               ")
   print("Register Number:   212224230023             ")
   model.train()
   for epoch in range(epochs):
@@ -109,7 +109,7 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: Arun S                  ")
+    print("Name: MEERA HUSSAIN A                  ")
     print("Register Number:     212224230023             ")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
